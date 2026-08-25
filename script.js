@@ -157,7 +157,7 @@
           img.onerror = () => showPlaceholder('Gambar preview gagal dimuat. Cek lagi link gambarnya, atau buka file lewat tombol di bawah.');
           previewMedia.appendChild(img);
         } else {
-          showPlaceholder('Belum ada preview — isi data-preview-src / data-preview-video di kode.');
+          showPlaceholder('.');
         }
 
         if (linkHref && linkHref !== '#') {
