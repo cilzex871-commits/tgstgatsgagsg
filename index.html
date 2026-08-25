@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Biodata — Adam Ezra R</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+
+    <!-- SPLASH SCREEN -->
+    <div id="splash">
+      <div class="splash-container">
+        <div class="boot-box">
+          <div class="boot-dots"><span></span><span></span><span></span></div>
+          <div class="boot-scan"></div>
+          <div class="boot-lines">
+            <div class="boot-line">&gt; mulai sistem_biodata</div>
+            <div class="boot-line">&gt; memuat profil <span class="ok">OK</span></div>
+            <div class="boot-line">&gt; status: siap<span class="boot-cursor"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GATE (tap to enter) -->
+    <div id="gate">
+      <div class="gate-card">
+        <div class="gate-chip" aria-hidden="true"></div>
+        <div class="gate-eyebrow">Biodata Digital</div>
+        <div class="gate-name">Adam Ezra R</div>
+        <div class="gate-sub">Kartu biodata &amp; tugas siswa</div>
+        <button id="gate-btn" class="gate-btn" type="button">
+          <span>Masuk</span>
+          <svg viewBox="0 0 24 24"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg>
+        </button>
+        <div class="gate-hint">Ketuk untuk membuka</div>
+      </div>
+    </div>
+
+    <!-- APP SHELL -->
+    <div id="app">
+
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+
+      <!-- ID HEADER (persistent) -->
+      <header id="id-header">
+        <img class="avatar" src="foto2.jpeg" alt="Foto profil">
+        <div class="id-text">
+          <div class="id-name">ADAM EZRA R</div>
+          <div class="id-meta">XI <span class="dot">·</span> Siswa SMASA</div>
+        </div>
+        <div class="id-chip" aria-hidden="true"></div>
+      </header>
+
+      <!-- SWAPPABLE PANE -->
+      <main id="pane-viewport">
+
+        <section class="pane" data-pane="ringkasan">
+          <div class="pane-eyebrow">Kartu Identitas</div>
+          <div class="pane-title">Ringkasan</div>
+          <div class="badges">
+            <span class="badge strong">SISWA</span>
+            <span class="badge">SMASA</span>
+          </div>
+          <div class="id-rows">
+            <div class="id-row"><span class="k">Sekolah</span><span class="v">SMA Negeri 1 Nganjuk</span></div>
+            <div class="id-row"><span class="k">Kelas</span><span class="v">XI</span></div>
+            <div class="id-row"><span class="k">Status</span><span class="v">Aktif</span></div>
+          </div>
+        </section>
+
+        <section class="pane" data-pane="prestasi">
+          <div class="pane-eyebrow">Pencapaian</div>
+          <div class="pane-title">Prestasi</div>
+          <div class="achv-list">
+            <div class="achv-item">
+              <span class="achv-icon"><svg viewBox="0 0 24 24"><path d="M8 3h8v4a4 4 0 0 1-8 0V3z"></path><path d="M6 4H4a2 2 0 0 0 2 4"></path><path d="M18 4h2a2 2 0 0 1-2 4"></path><path d="M12 11v4"></path><path d="M9.5 20h5"></path><path d="M10 15h4l1 5H9l1-5z"></path></svg></span>
+              <div>
+                <div class="achv-title">Juara 2 Tingkat Kabupaten Lomba Informatika</div>
+                <div class="achv-sub">2026</div>
+              </div>
+            </div>
+            <div class="achv-item">
+              <span class="achv-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="14.5" r="5"></circle><path d="M9 10L7 3"></path><path d="M15 10l2-7"></path><path d="M12 12.5v4"></path></svg></span>
+              <div>
+                <div class="achv-title">Sertifikat Dasar Pemrograman Dicoding</div>
+                <div class="achv-sub">2025</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pane active" data-pane="artikel">
+          <div class="pane-eyebrow">Liputan</div>
+          <div class="pane-title">Artikel</div>
+          <article class="article">
+            <div class="article-cover">
+              <img src="foto3.jpeg" alt="Pawai Budaya Karnaval">
+            </div>
+            <div class="article-meta">
+              <span class="badge strong">Budaya</span>
+              <span class="article-date">15 Agustus 2026</span>
+            </div>
+            <h3 class="article-heading">Karnaval Pawai Budaya Meriahkan HUT ke-81 RI di Nganjuk</h3>
+            <div class="article-body">
+              <p> Nganjuk, 15 Agustus 2026 — Dalam rangka memperingati Hari Ulang Tahun (HUT) ke-81 Kemerdekaan Republik Indonesia, masyarakat Kabupaten Nganjuk menggelar karnaval pawai budaya pada Sabtu, 15 Agustus 2026. Kegiatan tersebut berlangsung meriah di sepanjang Jalan A. Yani, Nganjuk, dan mendapat antusiasme yang tinggi dari masyarakat.
+                  Karnaval pawai budaya diikuti oleh berbagai kalangan, mulai dari anak-anak, pelajar, hingga masyarakat umum. Para peserta tampil dengan mengenakan berbagai pakaian adat dan kostum yang menarik. Selain itu, terdapat pula berbagai hiasan, properti, serta penampilan seni dan budaya yang menambah kemeriahan acara.
+                  Sepanjang Jalan A. Yani dipenuhi oleh masyarakat yang datang untuk menyaksikan jalannya pawai. Para peserta berjalan mengikuti rute yang telah ditentukan sambil menampilkan berbagai kreativitas. Masyarakat juga turut mengabadikan momen tersebut melalui foto dan video.
+                  Kegiatan karnaval ini diselenggarakan sebagai salah satu bentuk perayaan kemerdekaan sekaligus untuk melestarikan dan memperkenalkan keberagaman budaya Indonesia kepada masyarakat, khususnya generasi muda. Berbagai budaya yang ditampilkan menjadi gambaran bahwa Indonesia memiliki kekayaan tradisi yang sangat beragam.
+                  Selain sebagai hiburan, pawai budaya juga menjadi sarana untuk mempererat kebersamaan dan menumbuhkan rasa nasionalisme masyarakat. Masyarakat dari berbagai kalangan dapat berkumpul dan menikmati kemeriahan perayaan HUT ke-81 Kemerdekaan RI bersama-sama.
+                  Karnaval pawai budaya di Jalan A. Yani, Nganjuk, menjadi salah satu kegiatan yang menunjukkan semangat masyarakat dalam menyambut Hari Kemerdekaan. Dengan adanya kegiatan seperti ini, diharapkan rasa cinta terhadap budaya Indonesia dan semangat persatuan dapat terus tumbuh di tengah masyarakat.
+              </p>
+              <p></p>
+            </div>
+          </article>
+        </section>
+
+        <section class="pane" data-pane="tugas">
+          <div class="pane-eyebrow">Sedang Berjalan</div>
+          <div class="pane-title">Tugas</div>
+          <div class="task-list">
+            <a href="https://canva.link/heordkm6maqsovd" class="task-item" data-preview-title="Pamflet" data-preview-sub="Desain acara · Canva" data-preview-src="https://lh3.googleusercontent.com/d/1DcxBo_JJMDip_1Q2QTFMxryQfqDDuDQ7">
+              <div class="task-left">
+                <span class="task-thumb">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"></rect><circle cx="9" cy="9" r="1.5" fill="var(--pewter-bright)" stroke="none"></circle><path d="M21 15l-5-5-9 9"></path></svg>
+                </span>
+                <span class="task-text">Pamflet</span>
+              </div>
+              <span class="task-status"><span class="task-arrow">→</span><span class="link-spinner"></span></span>
+            </a>
+            <a href="https://youtu.be/nKMo14Tx6JQ?si=EX810ZpaGb2DnUB-" class="task-item" data-preview-title="Aftermovie" data-preview-sub="Video dokumentasi" data-preview-video="" data-preview-youtube="nKMo14Tx6JQ">
+              <div class="task-left">
+                <span class="task-thumb">
+                  <svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"></rect><path d="M10 9.5l5 2.5-5 2.5z" fill="var(--pewter-bright)" stroke="none"></path></svg>
+                </span>
+                <span class="task-text">Aftermovie</span>
+              </div>
+              <span class="task-status"><span class="task-arrow">→</span><span class="link-spinner"></span></span>
+            </a>
+          </div>
+        </section>
+
+        <section class="pane" data-pane="sosmed">
+          <div class="pane-eyebrow">Terhubung</div>
+          <div class="pane-title">Sosmed</div>
+          <div class="social-grid">
+            <a href="https://www.instagram.com/admzraa_?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" class="social-item">
+              <span class="social-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="0.8" fill="#a8f0f7" stroke="none"></circle></svg><span class="link-spinner"></span></span>
+              <span class="social-label">Instagram</span>
+            </a>
+            <a href="https://www.tiktok.com/@ptiezr_?is_from_webapp=1&sender_device=pc" class="social-item">
+              <span class="social-icon"><svg viewBox="0 0 24 24"><path d="M14 3v10.5a3.5 3.5 0 1 1-3.5-3.5"></path><path d="M14 3c0 2.5 2 4.5 4.5 4.5"></path></svg><span class="link-spinner"></span></span>
+              <span class="social-label">TikTok</span>
+            </a>
+            <a href="https://www.youtube.com/@Zrapeti" class="social-item">
+              <span class="social-icon"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="4"></rect><path d="M10.5 9.5l5 2.5-5 2.5z" fill="#a8f0f7" stroke="none"></path></svg><span class="link-spinner"></span></span>
+              <span class="social-label">YouTube</span>
+            </a>
+            <a href="#" class="social-item">
+              <span class="social-icon"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-3.9-6.9"></path><path d="M20 12a8 8 0 0 1-11.9 6.9L4 20l1.2-4A8 8 0 0 1 20 12z"></path><path d="M9.5 9.5c0 3 2 5 5 5"></path></svg><span class="link-spinner"></span></span>
+              <span class="social-label">WhatsApp</span>
+            </a>
+          </div>
+        </section>
+
+      </main>
+
+      <!-- LIQUID DOCK NAV -->
+      <nav id="dock" aria-label="Navigasi bagian">
+        <div class="dock-pill"></div>
+        <button class="dock-btn" data-target="ringkasan">
+          <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="3"></rect><path d="M3 10h18"></path><path d="M7 14h4"></path></svg>
+          <span>Ringkasan</span>
+        </button>
+        <button class="dock-btn" data-target="prestasi">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="9" r="5"></circle><path d="M8.5 13.5L7 21l5-2.5L17 21l-1.5-7.5"></path></svg>
+          <span>Prestasi</span>
+        </button>
+        <button class="dock-btn active" data-target="artikel" aria-current="true">
+          <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2.5"></rect><path d="M8 8h8"></path><path d="M8 12h8"></path><path d="M8 16h5"></path></svg>
+          <span>Artikel</span>
+        </button>
+        <button class="dock-btn" data-target="tugas">
+          <svg viewBox="0 0 24 24"><path d="M5 12l4 4L19 6"></path></svg>
+          <span>Tugas</span>
+        </button>
+        <button class="dock-btn" data-target="sosmed">
+          <svg viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="6" r="2.5"></circle><circle cx="18" cy="18" r="2.5"></circle><path d="M8.3 10.8l7.4-3.6"></path><path d="M8.3 13.2l7.4 3.6"></path></svg>
+          <span>Sosmed</span>
+        </button>
+      </nav>
+
+    </div>
+
+    <!-- PREVIEW MODAL -->
+    <div id="preview-modal">
+      <div class="preview-backdrop"></div>
+      <div class="preview-box">
+        <button class="preview-close" aria-label="Tutup">✕</button>
+        <div class="preview-media"></div>
+        <div class="preview-info">
+          <div class="preview-title"></div>
+          <div class="preview-sub"></div>
+          <a class="preview-open-link" href="#" target="_blank" rel="noopener">
+            <span>Buka File</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
